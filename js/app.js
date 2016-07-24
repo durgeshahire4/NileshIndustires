@@ -7,6 +7,8 @@ myapp.config(['$routeProvider',function($routeProvider) {
  	templateUrl : 'home.html'
  }).when('/product-and-services', {
  	templateUrl : 'product-and-services.html'
+ }).when('/industries', {
+ 	templateUrl : 'industries.html'
  }).when('/contact', {
  	templateUrl : 'contact.html'
  }).otherwise({
